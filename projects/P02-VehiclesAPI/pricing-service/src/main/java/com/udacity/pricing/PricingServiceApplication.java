@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * Done: Convert the application from a REST API to a microservice.
  */
 @SpringBootApplication
-@EnableEurekaServer
+@EnableEurekaClient
 public class PricingServiceApplication {
 
     public static void main(String[] args) {
